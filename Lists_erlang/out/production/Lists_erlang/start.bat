@@ -1,0 +1,2 @@
+@echo off
+"C:\Program Files\erl6.4\bin\erl.exe" -pa D:/WORK/GitHub/SPO-progs/Lists_erlang/out/production/Lists_erlang -pa D:/WORK/GitHub/SPO-progs/Lists_erlang -eval "listwork:start(1000000, 1000, 2)." -run init stop -noshell
